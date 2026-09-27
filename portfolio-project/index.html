@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Yash Joshi — Software Engineer</title>
+  <meta name="description"
+    content="Portfolio of Yash Joshi, Computer Science undergraduate and web developer specializing in Java, JavaScript and responsive front-end applications.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <div class="aurora"><span></span><span></span><span></span></div>
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="page-wipe" id="pageWipe"></div>
+  <div id="progress"></div>
+  <nav>
+    <span class="brand" data-goto="home">Yash Joshi</span>
+    <div class="navlinks" id="navlinks">
+      <button class="nav-link" data-goto="home">Home</button>
+      <button class="nav-link" data-goto="about">About</button>
+      <button class="nav-link" data-goto="skills">Skills</button>
+      <button class="nav-link" data-goto="projects">Projects</button>
+      <button class="nav-link" data-goto="journey">Journey</button>
+      <button class="nav-link" data-goto="contact">Contact</button>
+      <button class="theme-btn" id="themeBtn" type="button">Light mode</button>
+    </div>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
+  </nav>
+
+  <main>
+    <section class="page" id="page-home" data-page="home">
+      <div class="hero-photo">
+        <div class="hero-bg"></div>
+        <div class="hero-vignette"></div>
+        <div class="hero-content">
+          <p class="kicker">Jaipur, Rajasthan — CS Undergraduate</p>
+          <h1 class="hero-title" id="heroName">YASH<br>JOSHI</h1>
+          <p class="hero-caption">Building fast, responsive web applications in Java and JavaScript, with a strong
+            foundation in data structures and object-oriented design. Currently completing my B.Tech at JECRC
+            University.</p>
+          <div class="cta-row">
+            <button class="btn btn-primary" data-goto="projects">View Projects</button>
+            <button class="btn btn-ghost" data-goto="contact">Contact Me</button>
+          </div>
+          <div class="social-row">
+            <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="mailto:yash.23bcon2004@jecrcu.edu.in">Email</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="page" id="page-about" data-page="about">
+      <div class="wrap">
+        <p class="kicker reveal">About</p>
+        <div class="about-grid">
+          <div class="reveal">
+            <h2>A little about my work</h2>
+            <p style="margin-top:1rem;">I'm a B.Tech Computer Science student at JECRC University, currently maintaining
+              an 8.49 CGPA. My coursework centers on Data Structures & Algorithms and Object-Oriented Programming, and I
+              spend most of my project time building responsive web applications — from personal finance dashboards to
+              AI-assisted tools.</p>
+            <p style="margin-top:1rem;" class="muted">Outside of coursework, I'm drawn to projects that turn a manual,
+              tedious process into something fast and automatic — like replacing spreadsheet tracking with live charts,
+              or scoring a resume against a job description in seconds.</p>
+            <a href="#" class="btn btn-ghost" style="display:inline-block; margin-top:1.6rem;">Download Resume</a>
+          </div>
+          <div class="reveal">
+            <div class="initial-mark">YJ</div>
+            <div class="facts">
+              <div><span>Degree</span><span class="muted">B.Tech, CSE</span></div>
+              <div><span>University</span><span class="muted">JECRC University</span></div>
+              <div><span>CGPA</span><span class="muted">8.49</span></div>
+              <div><span>Based in</span><span class="muted">Jaipur, Rajasthan</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="page" id="page-skills" data-page="skills">
+      <div class="wrap">
+        <p class="kicker reveal">Skills</p>
+        <h2 class="reveal">What I work with</h2>
+        <div class="skill-grid">
+          <div class="skill-card reveal">
+            <h3>Languages</h3>
+            <ul></ul>
+          </div>
+          <div class="skill-card reveal">
+            <h3>Frontend</h3>
+            <ul></ul>
+          </div>
+          <div class="skill-card reveal">
+            <h3>Tools &amp; Platforms</h3>
+            <ul></ul>
+          </div>
+          <div class="skill-card reveal">
+            <h3>Concepts &amp; Practices</h3>
+            <ul></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="page wide" id="page-projects" data-page="projects">
+      <div class="wrap wide">
+        <p class="kicker reveal">Projects</p>
+        <h2 class="reveal">Things I've built</h2>
+
+        <div class="project-card reveal">
+          <div class="project-visual"><span>CashFlow</span></div>
+          <div class="project-body">
+            <h3>CashFlow — Expense &amp; Income Tracker</h3>
+            <p>A 5-page personal finance web app with secure login, covering dashboard, transactions, and category-wise
+              budgets. Replaced manual spreadsheet tracking with dynamic, chart-based reporting of spending trends.</p>
+            <div class="tech-row"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <div class="project-links">
+              <a href="https://cashflow-eit.netlify.app" target="_blank" rel="noopener">Live Demo</a>
+              <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-visual"><span>ResoBuild</span></div>
+          <div class="project-body">
+            <h3>ResoBuild — AI Resume Builder &amp; ATS Score Checker</h3>
+            <p>A full-stack resume builder with live editing, drag-and-drop section reordering, and export to PDF/Word.
+              Includes AI-powered rewriting and an ATS compatibility scorer with keyword gap analysis against job
+              descriptions.</p>
+            <div class="tech-row"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Serverless API</span>
+            </div>
+            <div class="project-links">
+              <a href="https://resobuild.netlify.app" target="_blank" rel="noopener">Live Demo</a>
+              <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="page" id="page-journey" data-page="journey">
+      <div class="wrap">
+        <p class="kicker reveal">Journey</p>
+        <h2 class="reveal">Education &amp; Certifications</h2>
+        <div class="timeline">
+          <div class="t-item">
+            <div class="t-date">2023 — 2027</div>
+            <h3>B.Tech, Computer Science — JECRC University</h3>
+            <p>CGPA 8.49. Coursework in Data Structures & Algorithms, OOP, and Software Design Principles.</p>
+          </div>
+          <div class="t-item">
+            <div class="t-date">Nov 2025</div>
+            <h3>Google Cloud Career Readiness Program</h3>
+            <p>Certificate of completion.</p>
+          </div>
+          <div class="t-item">
+            <div class="t-date">Oct 2025</div>
+            <h3>Soft Skills — NPTEL</h3>
+            <p>Certificate of completion.</p>
+          </div>
+          <div class="t-item">
+            <div class="t-date">Mar 2025</div>
+            <h3>Google Cloud Computation Foundations</h3>
+            <p>Certificate of completion.</p>
+          </div>
+          <div class="t-item">
+            <div class="t-date">2022</div>
+            <h3>Higher Secondary (12th) — Rajasthan Board</h3>
+            <p>85.60%</p>
+          </div>
+          <div class="t-item">
+            <div class="t-date">2020</div>
+            <h3>Secondary (10th) — Rajasthan Board</h3>
+            <p>86.00%</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="page" id="page-contact" data-page="contact">
+      <div class="wrap">
+        <p class="kicker reveal">Contact</p>
+        <h2 class="reveal">Let's talk</h2>
+        <div class="contact-grid">
+          <form id="contactForm" class="reveal" novalidate>
+            <div><label for="name">Name</label><input id="name" name="name" type="text" required></div>
+            <div><label for="email">Email</label><input id="email" name="email" type="email" required></div>
+            <div><label for="message">Message</label><textarea id="message" name="message" required></textarea></div>
+            <button type="submit" class="btn btn-primary" style="align-self:flex-start;">Send Message</button>
+            <p class="form-note" id="formNote">This opens your email app with the message pre-filled.</p>
+          </form>
+          <div class="contact-info reveal">
+            <p class="muted" style="margin-bottom:1rem;">Prefer to reach out directly? Find me here:</p>
+            <a href="mailto:yash.23bcon2004@jecrcu.edu.in">yash.23bcon2004@jecrcu.edu.in</a>
+            <a href="https://github.com/YashJoshi2707" target="_blank" rel="noopener">GitHub — Yash Joshi</a>
+            <a href="www.linkedin.com/in/yashjoshi2707" target="_blank" rel="noopener">LinkedIn — Yash Joshi</a>
+            <a href="tel:+919680170034">+91-9680170034</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="f-links">
+      <a href="https://github.com/YashJoshi2707" target="_blank" rel="noopener">GitHub</a>
+      <a href="www.linkedin.com/in/yashjoshi2707" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="mailto:yash.23bcon2004@jecrcu.edu.in">Email</a>
+    </div>
+    <p>© <span id="year"></span> Yash Joshi. All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
